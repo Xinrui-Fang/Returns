@@ -1,0 +1,490 @@
+fileFormatVersion: 2
+guid: 598c1629a76b60b4689347a04b23f47f
+timeCreated: 1496837590
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_0"
+    21300002: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_1"
+    21300004: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_2"
+    21300006: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_3"
+    21300008: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_4"
+    21300010: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_5"
+    21300012: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_6"
+    21300014: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_7"
+    21300016: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_8"
+    21300018: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_9"
+    21300020: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_10"
+    21300022: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_11"
+    21300024: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_12"
+    21300026: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_13"
+    21300028: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_14"
+    21300030: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_15"
+    21300032: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_16"
+    21300034: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_17"
+    21300036: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_18"
+    21300038: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_19"
+    21300040: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_20"
+    21300042: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_21"
+    21300044: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_22"
+    21300046: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_23"
+    21300048: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_24"
+    21300050: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_25"
+    21300052: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_26"
+    21300054: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_27"
+    21300056: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_28"
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_0"
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 4057
+        width: 390
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_1"
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 4067
+        width: 342
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_2"
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 4041
+        width: 342
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_3"
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 4060
+        width: 344
+        height: 889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_4"
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 4074
+        width: 407
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_5"
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 4418
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_6"
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 4401
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_7"
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 3033
+        width: 400
+        height: 877
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_8"
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 3370
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_9"
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 3038
+        width: 400
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_10"
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 3374
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_11"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 3026
+        width: 405
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_12"
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 3038
+        width: 399
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_13"
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 3374
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_14"
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 3021
+        width: 407
+        height: 891
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_15"
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 3367
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_16"
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 3365
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_17"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1986
+        width: 397
+        height: 875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_18"
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1991
+        width: 400
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_19"
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 2330
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_20"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1986
+        width: 405
+        height: 885
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_21"
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 2325
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_22"
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 1972
+        width: 341
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_23"
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 1943
+        width: 344
+        height: 881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_24"
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2325
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_25"
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 2309
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_26"
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 906
+        width: 346
+        height: 836
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_27"
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 928
+        width: 458
+        height: 833
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "jump1\uFF08\u4ECE\u5DE6\u81F3\u53F3\uFF09_28"
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 896
+        width: 569
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

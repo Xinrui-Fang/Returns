@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8D02C09C-3680-4C82-C2C7-6A1BB53CD5BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\#Source\Scripts\Common\EnumClass.cs" />
+    <Compile Include="Assets\#Source\Scripts\Floor.cs" />
+    <Compile Include="Assets\#Source\Scripts\GameCreate.cs" />
+    <Compile Include="Assets\#Source\Scripts\GameInfo.cs" />
+    <Compile Include="Assets\#Source\Scripts\GameMenu.cs" />
+    <Compile Include="Assets\#Source\Scripts\Player.cs" />
+    <Compile Include="Assets\#Source\Scripts\ShowCoin.cs" />
+    <Compile Include="Assets\#Source\Scripts\ShowMi.cs" />
+    <Compile Include="Assets\Example.cs" />
+    <Compile Include="Assets\Social.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\res\anim\umeng_socialize_fade_in.xml" />
+    <None Include="Assets\Plugins\Android\res\anim\umeng_socialize_fade_out.xml" />
+    <None Include="Assets\Plugins\Android\res\anim\umeng_socialize_shareboard_animation_in.xml" />
+    <None Include="Assets\Plugins\Android\res\anim\umeng_socialize_shareboard_animation_out.xml" />
+    <None Include="Assets\Plugins\Android\res\anim\umeng_socialize_slide_in_from_bottom.xml" />
+    <None Include="Assets\Plugins\Android\res\anim\umeng_socialize_slide_out_from_bottom.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_action_back.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_action_personal_icon.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_action_share_icon.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_at_button.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_bind_bt.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_button_grey_blue.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_button_login.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_button_red_blue.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_button_white_blue.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_comment_icon.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_comment_item_bg_shape.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_commnet_header_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_follow_check.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_oauth_check.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_shape_bt.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_shape_cyan.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_shape_hollow_grey.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_shape_red.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_shape_solid_black.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_shape_solid_grey.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_shape_yellow.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_share_to_button.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_share_transparent_corner.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_shareboard_item_background.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_sidebar_normal.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_sidebar_selected.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_sidebar_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_title_back_bt.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_title_right_bt.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_title_tab_button_left.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_title_tab_button_right.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\umeng_socialize_window_shadow_pad.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-h500dp-normal\umeng_socialize_ucenter.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-sw550dp-large\umeng_socialize_full_alert_dialog.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-sw550dp-large\umeng_socialize_oauth_dialog.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-sw550dp-large\umeng_socialize_post_comment.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-sw550dp-large\umeng_socialize_post_share.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-sw550dp-large\umeng_socialize_titile_bar.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-sw550dp-large\umeng_socialize_ucenter.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_actionbar.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_at_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_at_overlay.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_at_view.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_base_alert_dialog.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_base_alert_dialog_button.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_bind_select_dialog.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_comment_content.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_comment_detail.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_comment_detail_nomap.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_comment_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_comment_more.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_comment_view.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_composer_header.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_facebook_login_activity_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_failed_load_page.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_full_alert_dialog.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_full_alert_dialog_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_full_curtain.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_oauth_dialog.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_post_comment.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_post_comment_platform.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_post_share.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_pull_to_refresh_header.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_shareboard_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_simple_spinner_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_titile_bar.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_titile_bar_comment.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_ucenter.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\umeng_socialize_ucenter_platform_item.xml" />
+    <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+    <None Include="Assets\Plugins\Android\res\values\umeng_socialize_colors.xml" />
+    <None Include="Assets\Plugins\Android\res\values\umeng_socialize_facebook_strings.xml" />
+    <None Include="Assets\Plugins\Android\res\values\umeng_socialize_laiwang_strings.xml" />
+    <None Include="Assets\Plugins\Android\res\values\umeng_socialize_strings.xml" />
+    <None Include="Assets\Plugins\Android\res\values\umeng_socialize_style.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionName="1.0" android:versionCode="1" android:theme="@android:style/Theme.NoTitleBar" android:installLocation="preferExternal" package="com.unity3d.player" xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <supports-screens android:anyDensity="true" android:xlargeScreens="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
+
+
+  -<application android:label="@string/app_name" android:icon="@drawable/icon">
+
+
+    -<activity android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:launchMode="singleTask" android:name="com.unity3d.player.UnityPlayerNativeActivity">
+
+
+      -<intent-filter>
+
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+
+      </intent-filter>
+
+      <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="false"/>
+
+    </activity>
+
+    <!-- ###################注册SDK使用的Activity###################### -->
+    <!--分享编辑页-->
+    <activity
+        android:name="com.umeng.socialize.view.ShareActivity"
+        android:configChanges="orientation|keyboard"
+        android:launchMode="singleTask"
+        android:noHistory="true"
+        android:theme="@style/Theme.UMDialog"
+        android:windowSoftInputMode="stateVisible|adjustResize" >
+    </activity>
+
+    <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
+    <activity
+        android:name="com.tencent.tauth.AuthActivity"
+        android:launchMode="singleTask"
+        android:noHistory="true" >
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <!-- 100424468，如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID-->
+        <data android:scheme="tencent100424468" />
+      </intent-filter>
+    </activity>
+    <activity android:name="com.tencent.plus.ImageActivity" />
+    <activity android:name="com.tencent.connect.common.AssistActivity"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+        android:screenOrientation="portrait">
+    </activity>
+     <!-- ############ facebook的Activity注册 ############ -->
+    <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+    />
+
+
+
+
+  </application>
+
+  <!-- ###################声明SDK使用的相关权限###################### -->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />  <!-- 检测网络状态 -->
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />     <!-- 获取mac地址作为用户的备用唯一标识 -->
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />      <!-- 获取用户手机的IMEI，用来唯一的标识用户。 -->
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /><!-- 缓存资源优先存入SDcard -->
+  <uses-permission android:name="android.permission.INTERNET" />              <!-- 允许应用程序联网，以便向我们的服务器端发送数据。 -->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />  <!-- 用于评论模块分享位置信息 -->
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /><!-- 用于评论模块分享位置信息 -->
+
+
+
+
+</manifest>
+ 
+
+
+
+	
+   
+
+
+
+   
+ 
+ 
+ 
+  
+
+    
